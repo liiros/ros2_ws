@@ -1,0 +1,84 @@
+[0.399s] Invoking command in '/home/autolab/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autolab/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/autolab/ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autolab/ros2_ws/install/turtlebot3_node
+[1.074s] -- The C compiler identification is GNU 11.4.0
+[1.075s] -- The CXX compiler identification is GNU 11.4.0
+[1.075s] -- Detecting C compiler ABI info
+[1.075s] -- Detecting C compiler ABI info - done
+[1.075s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.075s] -- Detecting C compile features
+[1.075s] -- Detecting C compile features - done
+[1.075s] -- Detecting CXX compiler ABI info
+[1.075s] -- Detecting CXX compiler ABI info - done
+[1.075s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.075s] -- Detecting CXX compile features
+[1.075s] -- Detecting CXX compile features - done
+[1.075s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.075s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.075s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.075s] -- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[1.075s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.075s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.075s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.075s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.075s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.075s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.075s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.076s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.076s] -- Looking for pthread.h
+[1.076s] -- Looking for pthread.h - found
+[1.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.076s] -- Found Threads: TRUE  
+[1.165s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.221s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.278s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.293s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.304s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.532s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[1.630s] -- Configuring done
+[1.642s] -- Generating done
+[1.643s] -- Build files have been written to: /home/autolab/ros2_ws/build/turtlebot3_node
+[1.650s] Invoked command in '/home/autolab/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autolab/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/autolab/ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autolab/ros2_ws/install/turtlebot3_node
+[1.650s] Invoking command in '/home/autolab/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autolab/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/autolab/ros2_ws/build/turtlebot3_node -- -j20 -l20
+[1.682s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.682s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.682s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.682s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.683s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.683s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.684s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.684s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.684s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.685s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.685s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[10.905s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[11.236s] [ 85%] Built target turtlebot3_node_lib
+[11.252s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[13.172s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[14.152s] [100%] Built target turtlebot3_ros
+[14.164s] Invoked command in '/home/autolab/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autolab/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/autolab/ros2_ws/build/turtlebot3_node -- -j20 -l20
+[14.221s] Invoking command in '/home/autolab/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autolab/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/autolab/ros2_ws/build/turtlebot3_node
+[14.234s] -- Install configuration: ""
+[14.235s] -- Execute custom install script
+[14.236s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[14.245s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[14.250s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[14.259s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[14.268s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[14.274s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[14.281s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[14.288s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[14.293s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[14.298s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[14.306s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[14.317s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[14.329s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[14.338s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[14.350s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[14.361s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[14.372s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.385s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[14.399s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[14.418s] -- Symlinking: /home/autolab/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[14.430s] Invoked command in '/home/autolab/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autolab/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/autolab/ros2_ws/build/turtlebot3_node

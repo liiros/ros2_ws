@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/autolab/ros2_ws/build/turtlebot3_teleop",
+        "/home/autolab/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/autolab/ros2_ws/build/turtlebot3_example",
+        "/home/autolab/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/autolab/ros2_ws/build/my_robot_controller",
+        "/home/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/autolab/ros2_ws/build/turtlebot3_teleop",
+        "/home/autolab/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/autolab/ros2_ws/build/turtlebot3_example",
+        "/home/autolab/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/autolab/ros2_ws/build/my_robot_controller",
+        "/home/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

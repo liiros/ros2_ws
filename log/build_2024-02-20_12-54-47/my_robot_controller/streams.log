@@ -1,0 +1,19 @@
+[0.494s] Invoking command in '/home/autolab/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/autolab/ros2_ws/build/my_robot_controller/prefix_override:/home/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/autolab/ros2_ws/build/my_robot_controller/build --no-deps install_data
+[0.662s] running develop
+[0.764s] running egg_info
+[0.765s] writing my_robot_controller.egg-info/PKG-INFO
+[0.765s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.765s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.765s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.765s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.766s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.766s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.767s] running build_ext
+[0.767s] Creating /home/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.767s] Installing draw_circle script to /home/autolab/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.768s] Installing test_node script to /home/autolab/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.768s] 
+[0.768s] Installed /home/autolab/ros2_ws/build/my_robot_controller
+[0.768s] running install_data
+[0.768s] copying package.xml -> /home/autolab/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.785s] Invoked command in '/home/autolab/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/autolab/ros2_ws/build/my_robot_controller/prefix_override:/home/autolab/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/autolab/ros2_ws/build/my_robot_controller/build --no-deps install_data
