@@ -1,2 +1,0 @@
-Invoking command in '/home/autolab/ros2_ws/build/turtlebot3_teleop': /usr/bin/cmake /home/autolab/ros2_ws/src/turtlebot3/turtlebot3_teleop -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/autolab/ros2_ws/install/turtlebot3_teleop
-Invoked command in '/home/autolab/ros2_ws/build/turtlebot3_teleop' returned '1': /usr/bin/cmake /home/autolab/ros2_ws/src/turtlebot3/turtlebot3_teleop -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/autolab/ros2_ws/install/turtlebot3_teleop
