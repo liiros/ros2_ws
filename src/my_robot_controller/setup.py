@@ -27,7 +27,8 @@ setup(
             "test_node = my_robot_controller.my_first_node:main",
             "draw_circle = my_robot_controller.draw_circle:main",
             "mapping = my_robot_controller.mapping:main",
-            "navigation = my_robot_controller.navigation:main"
+            "navigation = my_robot_controller.navigation:main",
+            "car_nav = my_robot_controller.aw_navigation:main"
         ],
     },
 )
